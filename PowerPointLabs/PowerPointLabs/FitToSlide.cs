@@ -28,6 +28,7 @@ namespace PowerPointLabs
             }
         }
 
+        // unused
         public static void FitToHeight(PowerPoint.Shape selectedShape, float slideWidth, float slideHeight)
         {
             float shapeSizeRatio = GetSizeRatio(selectedShape);
